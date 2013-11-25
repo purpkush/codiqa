@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ILLUMANTI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link href="css/codiqa.ext.min.css" rel="stylesheet">
+  <link href="css/jquery.mobile-1.3.1.min.css" rel="stylesheet">
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.mobile-1.3.1.min.js"></script>
+  <script src="js/codiqa.ext.min.js"></script>
+  <script src="js/illumanti.js"></script>
+</head>
+<body>
+  <div data-role="page" data-control-title="Home" id="page1">
+      <div data-theme="a" data-role="header">
+          <h3>
+              Index.html5
+          </h3>
+      </div>
+      <div data-role="content">
+          <ul data-role="listview" data-divider-theme="b" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  ILLUMINATI OPTIONS
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      Apply
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page3" data-transition="slide">
+                      About
+                  </a>
+              </li>
+          </ul>
+          <div style="" data-controltype="image">
+              <img style="width: 300px; height: 150px" src="img/blake_lively_05_3006-1920x1080.jpg">
+          </div>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Apply" id="page2">
+      <div data-theme="a" data-role="header">
+          <h3>
+              Application
+          </h3>
+      </div>
+      <div data-role="content">
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <label for="textarea1">
+                  About Yourself
+              </label>
+              <textarea name="" id="textarea1" placeholder=""></textarea>
+          </div>
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <label for="textarea2">
+                  Net Worth (In Billions)
+              </label>
+              <textarea name="" id="textarea2" placeholder=""></textarea>
+          </div>
+          <div data-role="fieldcontain" data-controltype="selectmenu">
+              <label for="selectmenu1">
+                  Choose:
+              </label>
+              <select id="selectmenu1" name="">
+                  <option value="option1">
+                      FULL MEMBER
+                  </option>
+                  <option value="value">
+                      HALF MEMBER
+                  </option>
+                  <option value="value">
+                      NEWS LETTER
+                  </option>
+              </select>
+          </div>
+          <input type="submit" value="Submit">
+      </div>
+  </div>
+  <div data-role="page" data-control-title="ABOUT" id="page3">
+      <div data-theme="a" data-role="header">
+          <h3>
+              ABOUT
+          </h3>
+      </div>
+      <div data-role="content">
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <label for="textarea3">
+                  SINCE THE AGE OF REPTILIIIANS
+              </label>
+              <textarea name="" id="textarea3" placeholder="">We are the ones who built the pyramids. We are the ones who control todays wealth. We are the ones who shut down the government. </textarea>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
